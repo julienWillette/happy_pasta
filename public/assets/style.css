@@ -46,6 +46,7 @@
     font-family: 'Shippori Mincho B1', serif;
     text-align: center;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .specialties-ita{
@@ -57,5 +58,19 @@
 .card-size{
     border: none;
 }
+
+/*-----customers opinion------*/
+
+.picture-customers{
+    background-image: url("https://i.postimg.cc/fTb423P4/Capture-d-cran-2021-03-17-23-16-58.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;  
+    width: 100%;
+    padding-top: 2rem;
+    vertical-align: middle;
+}
+
 
 
