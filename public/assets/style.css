@@ -15,7 +15,6 @@
     background-image: url("https://i.postimg.cc/FsGDd7WR/Capture-d-cran-2021-03-17-21-16-32.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 600px;  
@@ -39,3 +38,24 @@
 .shopping-cart-nav{
     color: white;
 }
+
+/*-----specialtie------*/
+
+.specialties-title{
+    color: #7b4662;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.specialties-ita{
+    color: #aea8a8;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.card-size{
+    border: none;
+}
+
+

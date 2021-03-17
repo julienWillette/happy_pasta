@@ -1,7 +1,21 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Happy Pasta{% endblock %}
 
 {% block body %}
+
+<div class="container">
+    <h2 class="specialties-title">Nos Spécialités</h2>
+    <p class="specialties-ita">L'arte della buona cucina</p>
+    <div class="row justify-content-center">
+        {% for specialtie in specialties %}
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-2 mb-2 mx-auto">
+            <div class="card card-size">
+                <img src="{{specialtie.picture}}" class="card-img-top img-specialtie" alt="...">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
 {% endblock %}
