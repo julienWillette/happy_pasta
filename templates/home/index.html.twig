@@ -23,4 +23,36 @@
     </div>
 </div>
 
+<div class="container">
+    <h2 class="specialties-title">Nos Créations</h2>
+    <p class="specialties-ita">Firme del capo</p>
+    <div class="row justify-content-center">
+        {% for creation in creations %}
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 mt-2 mb-2 mx-auto">
+            <div class="card card-size">
+                <img src="{{creation.picture}}" class="card-img-top img-specialtie" alt="...">
+                <div class="card-body">
+                    {% if creation.id == 1 %}
+                    <h5 class="card-title creation-title-1">{{creation.name}}</h5>
+                    <p class="card-text creation-description-1">{{creation.description}}</p>
+                    {% elseif creation.id == 2 %}
+                    <h5 class="card-title creation-title-2">{{creation.name}}</h5>
+                    <p class="card-text creation-description-2">{{creation.description}}</p>
+                    {% elseif creation.id == 3 %}
+                    <h5 class="card-title creation-title-3">{{creation.name}}</h5>
+                    <p class="card-text creation-description-3">{{creation.description}}</p>
+                    {% endif %}
+                    <div class="row">
+                        <div class="d-flex justify-content-end">
+                            <hr class="hr-creations" style="height: 2px;">
+                            <a href="#" class="view-creations">Consulter</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
 {% endblock %}
