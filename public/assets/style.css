@@ -1,0 +1,359 @@
+/*-----navbar------*/
+
+.color-navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.c-navbar{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 300%;
+    text-decoration: none;
+}
+
+.logo:hover{
+    font-family: 'Dancing Script', cursive;
+    color: #7a435f;
+    font-size: 300%;
+    text-decoration: none;
+}
+
+.picture-nav{
+    background-image: url("https://i.postimg.cc/FsGDd7WR/Capture-d-cran-2021-03-17-21-16-32.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;  
+}
+
+.link-nav{
+    color: white;
+    font-family: 'Shippori Mincho B1', serif;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.link-nav:hover{
+    color: #7a435f;
+    font-family: 'Shippori Mincho B1', serif;
+    text-decoration: none;
+}
+
+.phone-nav{
+    color :white;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-top: 1rem;
+}
+
+.shopping-cart-nav{
+    color: white;
+    font-size: 130%;
+}
+
+.shopping-cart-nav:hover{
+    color: #7a435f;
+}
+
+/*-----story------*/
+
+.c-story{
+    margin-top: 2rem;
+}
+
+.img-story{
+    margin-top: 2rem;
+}
+
+.c2-story{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.title-story{
+    color: #7a435f;
+    font-size: 35px;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: start;
+}
+
+.ita-story{
+    color: #aea8a8;
+    text-align: start;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.story-1{
+    margin-top: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.story-2{
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.sign-story{
+    width: 30%;
+    height: 30%;
+    margin-top: 5rem;
+}
+
+.hr-story{
+    width: 10%;
+    color: #7a435f;
+    margin-right: 1rem;
+    height: 3px;
+    margin-top: 5rem;
+}
+
+.view-story{
+    font-family: 'Shippori Mincho B1', serif;
+    color: black;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+
+/*-----specialtie------*/
+
+.specialties-title{
+    color: #7a435f;
+    font-size: 35px;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.specialties-ita{
+    color: #aea8a8;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.card-size{
+    border: none;
+}
+
+/*-----customers opinion------*/
+
+.picture-customers{
+    background-image: url("https://i.postimg.cc/fTb423P4/Capture-d-cran-2021-03-17-23-16-58.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;  
+    width: 100%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
+
+/*-----creation------*/
+
+.creation-title-1{
+    text-align: start;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.creation-description-1{
+    text-align: start;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.creation-title-2{
+    text-align: center;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.creation-description-2{
+    text-align: center;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.creation-title-3{
+    text-align: end;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.creation-description-3{
+    text-align: end;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.hr-creations{
+    width: 10%;
+    color:  #7a435f;
+    margin-right: 1rem;
+    height: 3px;
+    
+}
+
+.view-creations{
+    font-family: 'Shippori Mincho B1', serif;
+    color: black;
+    text-decoration: none;
+}
+
+.view-creations:hover{
+    font-family: 'Shippori Mincho B1', serif;
+    color: #7a435f;
+    text-decoration: none;
+}
+
+/*-----privilege------*/
+
+.picture-privilege{
+    background-image: url("https://i.postimg.cc/yYFB6Z03/Capture-d-cran-2021-03-17-23-25-42.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;  
+    width: 100%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
+
+/*-----find us------*/
+
+.find-us-title{
+    color: #7a435f;
+    font-size: 35px;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: start;
+    margin-top: 5rem;
+
+}
+
+.find-us-ita{
+    color: #aea8a8;
+    font-size: 25px;
+    text-align: start;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 1rem;
+}
+
+.find-us-description{
+    font-family: 'Shippori Mincho B1', serif;
+    margin-top: 2rem;
+}
+
+.color-find-us{
+    color: #aea8a8;
+    margin-top: 2rem;
+}
+
+.picture-find_us{
+    background-image: url("https://i.postimg.cc/506YD3YC/Capture-d-cran-2021-03-18-11-24-56.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;  
+    width: 100%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
+
+/*-----footer------*/
+
+.cf-color{
+    background-color: #7a435f;
+    margin-bottom: -3rem;
+    background:linear-gradient(to bottom,
+    rgb(255, 255, 255) 2%,
+    rgb(255, 255, 255) 80%,
+    rgb(122,67,95) 50%,
+    rgb(122,67,95) 100%);
+}
+
+.color-arrow{
+    color: #7a435f;
+}
+
+.btn-footer{
+    border-radius: 100px;
+    align-items: end;
+    background-color: white;
+    box-shadow: 3px 3px 3px black;
+    padding-bottom: -4rem;
+    font-size: 150%;
+}
+
+.color-footer{
+    background-color: #7a435f;
+    margin-top: 2rem;
+}
+
+.c-footer{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.link-footer-1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.link-footer-col-1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 130%;
+    padding-top: 1rem;
+}
+
+.link-footer-col-1:hover{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+
+.link-footer-2{
+    text-align: end;
+    justify-content: right;
+}
+
+.link-footer-col-2{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+
+.link-footer-col-2:hover{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+
+.link-footer-3{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: right;
+}
+
+.GM-footer{
+    color: white;
+    text-align: center;
+}
+
+.social-footer{
+    color: white;
+    font-size: 180%;
+}

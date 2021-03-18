@@ -1,0 +1,125 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Happy Pasta{% endblock %}
+
+{% block body %}
+
+<div class="container c-story">
+    <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 col-xs-5">
+            {% for story in story %}
+            <img src="{{story.picture}}" class="card-img-top img-story" alt="...">
+            {% endfor %}
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-5 col-sm-12 col-xs-7">
+            <div class="container c2-story">
+                <h2 class="title-story">Depuis 25 ans</h2>
+                <h4 class="ita-story">La nostra storia</h4>
+                <p class="story-1">Happy Pasta est née d'un savoir faire de plus de 
+                    vingt cinq ans dans la cuisine italienne 
+                    traditionnelle des régions du Piémont, de la 
+                    Ligurie et de l'Élmilie-Romagne. Pour nous 
+                    l'authenticité et la qualité sont les piliers
+                    de notre vison. Nous travaillons au quotidien 
+                    avec l'effort, plaisirs et professionnalisme afin
+                    d'offrir une expérience inoubliable et unique à nos
+                    clients. 
+                </p>
+                <p class="story-2">
+                    Tentez l'expérience dans nos restaurants à Paris constant
+                    8ème et savourez de délicieuse saveurss italienne. 
+                </p>
+                <div class="d-flex justify-content-end">
+                    <img class="sign-story" src="https://i.postimg.cc/fbCNpdYY/Capture-d-cran-2021-03-18-00-48-46.png" alt="">
+                </div>
+                <div class="d-flex justify-content-end">
+                    <hr class="hr-story" style="height: 2px;">
+                    <a href="#" class="view-story">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="specialties-title">Nos Spécialités</h2>
+    <h4 class="specialties-ita">L'arte della buona cucina</h4>
+    <div class="row justify-content-center">
+        {% for specialtie in specialties %}
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-2 mb-2 mx-auto">
+            <div class="card card-size">
+                <img src="{{specialtie.picture}}" class="card-img-top img-specialtie" alt="...">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="picture-customers">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="specialties-title">Nos Créations</h2>
+    <h4 class="specialties-ita">Firme del capo</h4>
+    <div class="row justify-content-center">
+        {% for creation in creations %}
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-xs-4 mt-2 mb-2 mx-auto">
+            <div class="card card-size">
+                <img src="{{creation.picture}}" class="card-img-top img-specialtie" alt="...">
+                <div class="card-body">
+                    {% if creation.id == 1 %}
+                    <h5 class="card-title creation-title-1">{{creation.name}}</h5>
+                    <p class="card-text creation-description-1">{{creation.description}}</p>
+                    {% elseif creation.id == 2 %}
+                    <h5 class="card-title creation-title-2">{{creation.name}}</h5>
+                    <p class="card-text creation-description-2">{{creation.description}}</p>
+                    {% elseif creation.id == 3 %}
+                    <h5 class="card-title creation-title-3">{{creation.name}}</h5>
+                    <p class="card-text creation-description-3">{{creation.description}}</p>
+                    {% endif %}
+                    <div class="row">
+                        <div class="d-flex justify-content-end">
+                            <hr class="hr-creations" style="height: 2px;">
+                            <a href="#" class="view-creations">Consulter</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="picture-privilege">
+
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-6 mt-2 mb-2 mx-auto">
+            <h2 class="find-us-title">Nous trouver</h2>
+            <h4 class="find-us-ita">Trovaci</h4>
+            <p class="find-us-description"><i class="fas fa-map-marker color-find-us"></i> 15 Rue Washington, 75008 Paris</p>
+            <p class="find-us-description"><i class="far fa-clock color-find-us"></i> Ouverture du Lundi au Samedi: 12h - 14h30 / 18h30 - 23h </p>
+            <p class="find-us-description"><i class="fas fa-mobile-alt color-find-us"></i> 01 42 25 50 01</p>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-6 mt-2 mb-2 mx-auto">
+            <div class="picture-find_us">
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid cf-color">
+    <div class="container">
+        <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-light btn-footer"><i class="fas fa-arrow-up color-arrow"></i></button>
+        </div>
+    </div>
+</div>
+{% endblock %}
