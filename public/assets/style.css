@@ -248,6 +248,7 @@
 .color-find-us{
     color: #aea8a8;
     margin-top: 2rem;
+    margin-right: 1rem;
 }
 
 .picture-find_us{
@@ -355,5 +356,10 @@
 
 .social-footer{
     color: white;
+    font-size: 180%;
+}
+
+.social-footer:hover{
+    color: black;
     font-size: 180%;
 }
