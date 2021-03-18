@@ -55,7 +55,7 @@
 }
 
 .title-story{
-    color: #794360;
+    color: #7a435f;
     font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     text-align: start;
@@ -86,7 +86,7 @@
 
 .hr-story{
     width: 10%;
-    color: #794360;
+    color: #7a435f;
     margin-right: 1rem;
     height: 3px;
     margin-top: 5rem;
@@ -102,7 +102,7 @@
 /*-----specialtie------*/
 
 .specialties-title{
-    color: #794360;
+    color: #7a435f;
     font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     text-align: center;
@@ -168,7 +168,7 @@
 
 .hr-creations{
     width: 10%;
-    color:  #794360;
+    color:  #7a435f;
     margin-right: 1rem;
     height: 3px;
     
@@ -182,7 +182,7 @@
 
 .view-creations:hover{
     font-family: 'Shippori Mincho B1', serif;
-    color: #794360;
+    color: #7a435f;
     text-decoration: none;
 }
 
@@ -202,11 +202,11 @@
 /*-----find us------*/
 
 .find-us-title{
-    color: #794360;
+    color: #7a435f;
     font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     text-align: start;
-    margin-top: 3rem;
+    margin-top: 5rem;
 
 }
 
@@ -215,6 +215,7 @@
     font-size: 25px;
     text-align: start;
     font-family: 'Cormorant Garamond', serif;
+    margin-top: 1rem;
 }
 
 .find-us-description{
@@ -224,6 +225,7 @@
 
 .color-find-us{
     color: #aea8a8;
+    margin-top: 2rem;
 }
 
 .picture-find_us{
@@ -231,8 +233,82 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;  
+    height: 450px;  
     width: 100%;
     margin-top: 3rem;
     vertical-align: middle;
+}
+
+/*-----footer------*/
+
+.color-footer{
+    background-color: #7a435f;
+    margin-top: 2rem;
+}
+
+.c-footer{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.link-footer-1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.link-footer-col-1{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 130%;
+    padding-top: 1rem;
+}
+
+.link-footer-col-1:hover{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+
+.link-footer-2{
+    text-align: end;
+    justify-content: right;
+}
+
+.link-footer-col-2{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+
+.link-footer-col-2:hover{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+
+.link-footer-3{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: right;
+}
+
+.GM-footer{
+    color: white;
+    text-align: center;
+}
+
+.social-footer{
+    color: white;
+    font-size: 180%;
 }
