@@ -145,15 +145,16 @@
 
 /*-----customers opinion------*/
 
-.picture-customers{
-    background-image: url("https://i.postimg.cc/fTb423P4/Capture-d-cran-2021-03-17-23-16-58.png");
+.picture-customers{    
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    height: 400px;  
+    background-size: cover;
     width: 100%;
-    margin-top: 3rem;
-    vertical-align: middle;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*-----creation------*/
@@ -211,14 +212,15 @@
 /*-----privilege------*/
 
 .picture-privilege{
-    background-image: url("https://i.postimg.cc/yYFB6Z03/Capture-d-cran-2021-03-17-23-25-42.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    height: 400px;  
+    background-size: cover;
     width: 100%;
-    margin-top: 3rem;
-    vertical-align: middle;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*-----find us------*/
