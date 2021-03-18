@@ -55,7 +55,7 @@
 }
 
 .title-story{
-    color: #7b4662;
+    color: #794360;
     font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     text-align: start;
@@ -86,7 +86,7 @@
 
 .hr-story{
     width: 10%;
-    color:  #7b4662;
+    color: #794360;
     margin-right: 1rem;
     height: 3px;
     margin-top: 5rem;
@@ -102,7 +102,7 @@
 /*-----specialtie------*/
 
 .specialties-title{
-    color: #7b4662;
+    color: #794360;
     font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     text-align: center;
@@ -168,7 +168,7 @@
 
 .hr-creations{
     width: 10%;
-    color:  #7b4662;
+    color:  #794360;
     margin-right: 1rem;
     height: 3px;
     
@@ -182,6 +182,6 @@
 
 .view-creations:hover{
     font-family: 'Shippori Mincho B1', serif;
-    color: #7b4662;
+    color: #794360;
     text-decoration: none;
 }
