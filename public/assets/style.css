@@ -39,10 +39,71 @@
     color: white;
 }
 
+/*-----story------*/
+
+.c-story{
+    margin-top: 2rem;
+}
+
+.img-story{
+    margin-top: 2rem;
+}
+
+.c2-story{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.title-story{
+    color: #7b4662;
+    font-size: 35px;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: start;
+}
+
+.ita-story{
+    color: #aea8a8;
+    text-align: start;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.story-1{
+    margin-top: 2rem;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.story-2{
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.sign-story{
+    width: 30%;
+    height: 30%;
+    margin-top: 5rem;
+}
+
+.hr-story{
+    width: 10%;
+    color:  #7b4662;
+    margin-right: 1rem;
+    height: 3px;
+    margin-top: 5rem;
+}
+
+.view-story{
+    font-family: 'Shippori Mincho B1', serif;
+    color: black;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+
 /*-----specialtie------*/
 
 .specialties-title{
     color: #7b4662;
+    font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     text-align: center;
     margin-top: 4rem;
@@ -51,6 +112,7 @@
 
 .specialties-ita{
     color: #aea8a8;
+    font-size: 25px;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -68,7 +130,7 @@
     background-position: center;
     height: 400px;  
     width: 100%;
-    padding-top: 2rem;
+    margin-top: 3rem;
     vertical-align: middle;
 }
 
