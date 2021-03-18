@@ -198,3 +198,41 @@
     margin-top: 3rem;
     vertical-align: middle;
 }
+
+/*-----find us------*/
+
+.find-us-title{
+    color: #794360;
+    font-size: 35px;
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: start;
+    margin-top: 3rem;
+
+}
+
+.find-us-ita{
+    color: #aea8a8;
+    font-size: 25px;
+    text-align: start;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.find-us-description{
+    font-family: 'Shippori Mincho B1', serif;
+    margin-top: 2rem;
+}
+
+.color-find-us{
+    color: #aea8a8;
+}
+
+.picture-find_us{
+    background-image: url("https://i.postimg.cc/506YD3YC/Capture-d-cran-2021-03-18-11-24-56.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;  
+    width: 100%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
