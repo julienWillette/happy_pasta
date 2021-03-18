@@ -185,3 +185,16 @@
     color: #794360;
     text-decoration: none;
 }
+
+/*-----privilege------*/
+
+.picture-privilege{
+    background-image: url("https://i.postimg.cc/yYFB6Z03/Capture-d-cran-2021-03-17-23-25-42.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;  
+    width: 100%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
